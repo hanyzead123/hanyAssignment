@@ -1,0 +1,15 @@
+What does fork do?
+fork creates a new process so we will have two processes: child and parent process. The child process gets
+pid = 0 and the parent gets a positive number. In the program, each process prints a message to show who is
+the parent and who is the child.
+
+What is the job of the linker?
+It links many compiled files into one program. We can make a function in one file and call it from another
+file, then link them together. It also handles linking with libraries.
+
+What is the job of the loader?
+It prepares the program to run by putting the program into memory, loading the libraries it needs, and
+starting the program. We can use 'ldd' to show the libraries used.
+
+What happens when you change a file and recompile?
+The output will change and the final program will be updated after using the linker with the new changes.
